@@ -1,0 +1,67 @@
+1. Body and Frame Design
+
+The robotic dog has a rectangular body frame made of lightweight aluminum or reinforced plastic. The battery and control board are placed in the center of the body to improve balance. The robot has four legs attached to the frame.
+
+2. Leg Design
+
+Each leg consists of two main parts:
+
+Upper leg (Thigh)
+Lower leg (Shin)
+
+The two parts are connected by joints that allow forward and backward movement. A small foot is attached at the end of each leg to improve stability.
+
+3. Number of Joints and Degrees of Freedom (DOF)
+
+Each leg has:
+
+1 Hip Joint
+1 Knee Joint
+
+Therefore:
+
+4 Legs × 2 Joints = 8 Joints
+Total Degrees of Freedom (DOF): 8
+4. Motor Selection
+
+The MG996R Servo Motor is selected because it:
+
+Provides sufficient torque.
+Is easy to control.
+Is affordable and widely available.
+Is suitable for educational robotics projects.
+5. Preliminary Torque Calculation
+
+Assumptions:
+
+Leg mass = 0.5 kg
+Leg length = 0.1 m
+Gravity = 9.81 m/s²
+
+Force = Mass × Gravity
+
+Force = 0.5 × 9.81 = 4.9 N
+
+Torque = Force × Distance
+
+Torque = 4.9 × 0.1 = 0.49 N·m
+
+Required motor torque: Greater than 0.49 N·m.
+
+6. Stability and Center of Gravity
+
+The battery and electronic components are placed near the center of the robot to keep the center of gravity low and balanced. This improves stability while standing and walking.
+
+7. Proposed Walking Method
+
+The robot uses a Crawl Gait, where one leg moves at a time while the other three legs remain on the ground. This walking pattern provides good stability and is suitable for a simple robotic dog.
+
+8. Expected Mechanical Problems
+Loss of balance during fast movement.
+High load on the servo motors.
+Foot slipping on smooth surfaces.
+Battery power consumption.
+Body vibration while walking.
+Conclusion
+
+This preliminary design demonstrates the basic mechanical principles required to build a simple robotic dog. It focuses on the body structure, leg mechanism, motor selection, torque estimation, stability, and walking method. The design is intended for educational purposes and provides a strong foundation for future development.
